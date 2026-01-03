@@ -10,7 +10,7 @@ import com.webviewtemplate.webviewtemplate.databinding.ActivityMainBinding
 
 class MainActivity : Activity() {
     // you can make offline application with local file
-    private val applicationUrl = "file:///android_asset/index.html"
+    private val applicationUrl = "https://driver.zoonasd.com/"
     //or you can load url
     //private val applicationUrl = "https://www.wikipedia.org/"
     private lateinit var binding: ActivityMainBinding
